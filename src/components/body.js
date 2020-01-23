@@ -18,8 +18,9 @@ export default class Body extends React.Component {
       <div>
       <body className="Body">
         <p style={{fontSize: 30, textAlign: 'left'}} className="CardTitle"><i class="fa fa-asterisk fa-fw margin-right text-blue"></i> About Me </p>
+        <ColoredLine color="#BCB9B9"/>
         <div className="Buttons">
-          <p style={{fontSize: 12, textAlign: 'left'}} className="Card">Hello, my Name is Irving Sanchez and I graduated from The University of
+          <p style={{fontSize: 20, textAlign: 'left'}} className="Card">Hello, my Name is Irving Sanchez and I graduated from The University of
           Texas at El Paso with a Bachelors Degree in Computer Science. </p>
         </div>
         <div className="Footer"></div>
@@ -27,6 +28,7 @@ export default class Body extends React.Component {
 
       <body className="Body">
         <p style={{fontSize: 30, textAlign: 'left'}} className="CardTitle"><i class="fa fa-briefcase fa-fw margin-left large text-blue"></i> Resume </p>
+        <ColoredLine color="#BCB9B9"/>
         <div className="Buttons">
           <Button variant="contained" color="primary" href='https://github.com/isanchez340/isanchez340.github.io/raw/master/style/Resume_Irving_Sanchez.docx'>Download Resume</Button>
         </div>
@@ -35,6 +37,7 @@ export default class Body extends React.Component {
 
       <body className="Body">
         <p style={{fontSize: 30, textAlign: 'left'}} className="CardTitle"><i class="fa fa-certificate fa-fw margin-left xxlarge text-blue"></i> Projects </p>
+        <ColoredLine color="#BCB9B9"/>
         <div className="Buttons">
           <p style={{font: 20, textAlign: 'left', fontWeight: 'bold'}}>Dragon Strikes Back </p>
             <p style={{font: 20, textAlign: 'left'}}>Language: Java </p>
@@ -49,9 +52,11 @@ export default class Body extends React.Component {
 
       <body className="Body">
         <p style={{fontSize: 30, textAlign: 'left'}} className="CardTitle"><i class="fa fa-envelope fa-fw margin-right large text-blue"></i> Contact Me </p>
+        <ColoredLine color="#BCB9B9"/>
         <div className="Buttons">
-          <p style={{fontSize: 20}}>Email: sanchez.irving006@gmail.com</p>
-          <p style={{fontSize: 20}}>Phone Number: (915)841-6130</p>
+          <p style={{fontSize: 20, textAlign: 'left'}}>Email: sanchez.irving006@gmail.com</p>
+          <ColoredLine color="#BCB9B9"/>
+          <p style={{fontSize: 20, textAlign: 'left'}}>Phone Number: (915)841-6130</p>
         </div>
         <div className="Footer"></div>
       </body>

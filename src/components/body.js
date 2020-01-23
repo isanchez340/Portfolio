@@ -20,7 +20,7 @@ export default class Body extends React.Component {
         <p style={{fontSize: 30, textAlign: 'left'}} className="CardTitle"><i class="fa fa-asterisk fa-fw margin-right text-blue"></i> About Me </p>
         <ColoredLine color="#BCB9B9"/>
         <div className="Buttons">
-          <p style={{fontSize: 20, textAlign: 'left'}} className="Card">Hello, my Name is Irving Sanchez and I graduated from The University of
+          <p style={{fontSize: 15, textAlign: 'left'}}>Hello, my Name is Irving Sanchez and I graduated from The University of
           Texas at El Paso with a Bachelors Degree in Computer Science. </p>
         </div>
         <div className="Footer"></div>
@@ -54,9 +54,9 @@ export default class Body extends React.Component {
         <p style={{fontSize: 30, textAlign: 'left'}} className="CardTitle"><i class="fa fa-envelope fa-fw margin-right large text-blue"></i> Contact Me </p>
         <ColoredLine color="#BCB9B9"/>
         <div className="Buttons">
-          <p style={{fontSize: 20, textAlign: 'left'}}>Email: sanchez.irving006@gmail.com</p>
+          <p style={{fontSize: 15, textAlign: 'left'}}>Email: sanchez.irving006@gmail.com</p>
           <ColoredLine color="#BCB9B9"/>
-          <p style={{fontSize: 20, textAlign: 'left'}}>Phone Number: (915)841-6130</p>
+          <p style={{fontSize: 15, textAlign: 'left'}}>Phone Number: (915)841-6130</p>
         </div>
         <div className="Footer"></div>
       </body>

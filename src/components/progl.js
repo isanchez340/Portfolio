@@ -24,10 +24,10 @@ export default class Bars extends React.Component {
           <ProgressBar label={'85%'} now={85} />
           <p>Python</p>
           <ProgressBar label={'80%'} now={80} />
+          <p>React.js{'\t'}</p>
+          <ProgressBar label={'60%'} now={60} />
           <p>PHP</p>
           <ProgressBar label={'50%'} now={50} />
-          <p>React.js{'\t'}</p>
-          <ProgressBar label={'30%'} now={30} />
         </div>
       </div>
     );

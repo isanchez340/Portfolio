@@ -21,7 +21,12 @@ export default class Body extends React.Component {
         <ColoredLine color="#BCB9B9"/>
         <div className="Buttons">
           <p style={{fontSize: 15, textAlign: 'left'}}>Hello, my Name is Irving Sanchez and I graduated from The University of
-          Texas at El Paso with a Bachelors Degree in Computer Science. </p>
+          Texas at El Paso with a Bachelors Degree in Computer Science. In my free time, I like reading astrophysics and technology articles.
+          As a recent graduate I on the process of looking for a job as a Software Engineer. I order to meet my goal of
+          landing a job as a Software Engineer, I'm currently devoting all of my free time to studying and learning new
+          skills such as using React Js and improving old ones such as Android app development. My favorite hobby is playing video games,
+          sadly I don't free time at the moment to play video games however, I am very much excited for any news and the eventual release of
+          The Legend of Zelda: Breath of the Wild 2.</p>
         </div>
         <div className="Footer"></div>
       </body>
@@ -41,14 +46,17 @@ export default class Body extends React.Component {
         <div className="Buttons">
           <p style={{font: 20, textAlign: 'left', fontWeight: 'bold'}}>Dragon Strikes Back </p>
             <p style={{font: 20, textAlign: 'left'}}>Language: Java </p>
+            <p style={{font: 20, textAlign: 'left'}}>An infinite scrolling game programed in Java using Android Studion for Android os. </p>
             <Button variant="contained" color="primary" href='https://github.com/isanchez340/Dragon-Strikes-Back'>View Repo</Button>
             <ColoredLine color="#BCB9B9"/>
           <p style={{font: 20, textAlign: 'left', fontWeight: 'bold'}}>Semaphore Video Player</p>
             <p style={{font: 20, textAlign: 'left'}}>Language: Python </p>
+            <p style={{font: 20, textAlign: 'left'}}>A Video player for mp4 files written in Python that that takes each frame and converts it to grayscale before displaying.</p>
             <Button variant="contained" color="primary" href='https://github.com/f18-os/producer-consumer-lab-isanchez340'>View Repo</Button>
             <ColoredLine color="#BCB9B9"/>
           <p style={{font: 20, textAlign: 'left', fontWeight: 'bold'}}>Portfolio Web  App</p>
             <p style={{font: 20, textAlign: 'left'}}>Language: React Js </p>
+            <p style={{font: 20, textAlign: 'left'}}>This mobile app written in JavaScript and CSS with the aid of the React Framework.</p>
             <Button variant="contained" color="primary" href='https://github.com/isanchez340/Portfolio'>View Repo</Button>
         </div>
         <div className="Footer"></div>

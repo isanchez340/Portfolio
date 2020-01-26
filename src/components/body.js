@@ -54,6 +54,16 @@ export default class Body extends React.Component {
             <p style={{font: 20, textAlign: 'left'}}>A Video player for mp4 files written in Python that that takes each frame and converts it to grayscale before displaying.</p>
             <Button variant="contained" color="primary" href='https://github.com/f18-os/producer-consumer-lab-isanchez340'>View Repo</Button>
             <ColoredLine color="#BCB9B9"/>
+          <p style={{font: 20, textAlign: 'left', fontWeight: 'bold'}}>Password Cracker</p>
+            <p style={{font: 20, textAlign: 'left'}}>Language: Java </p>
+            <p style={{font: 20, textAlign: 'left'}}>Program written in Java that cracks passwords hashed with SHA1 and then SHA256.</p>
+            <Button variant="contained" color="primary" href='https://github.com/isanchez340/passcrack'>View Repo</Button>
+            <ColoredLine color="#BCB9B9"/>
+          <p style={{font: 20, textAlign: 'left', fontWeight: 'bold'}}>Student Access Manager</p>
+            <p style={{font: 20, textAlign: 'left'}}>Language: PHP/MySQL </p>
+            <p style={{font: 20, textAlign: 'left'}}>Web Interface written in PHP that interfaced with a MySQL database that would keep track of graduating students in order to revoke lab access.</p>
+            <Button variant="contained" color="primary" href='https://github.com/isanchez340/database'>View Repo</Button>
+            <ColoredLine color="#BCB9B9"/>
           <p style={{font: 20, textAlign: 'left', fontWeight: 'bold'}}>Portfolio Web  App</p>
             <p style={{font: 20, textAlign: 'left'}}>Language: React Js </p>
             <p style={{font: 20, textAlign: 'left'}}>This mobile app written in JavaScript and CSS with the aid of the React Framework.</p>

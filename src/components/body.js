@@ -64,6 +64,11 @@ export default class Body extends React.Component {
             <p style={{font: 20, textAlign: 'left'}}>Web Interface written in PHP that interfaced with a MySQL database that would keep track of graduating students in order to revoke lab access.</p>
             <Button variant="contained" color="primary" href='https://github.com/isanchez340/database'>View Repo</Button>
             <ColoredLine color="#BCB9B9"/>
+          <p style={{font: 20, textAlign: 'left', fontWeight: 'bold'}}>Employee Database Reader</p>
+            <p style={{font: 20, textAlign: 'left'}}>Language: Java using Spring Boot Framework </p>
+            <p style={{font: 20, textAlign: 'left'}}>Small app that built using the Spring Boot framework that reads a list of employees from a database hosted on localhost.</p>
+            <Button variant="contained" color="primary" href='https://github.com/isanchez340/SpringBootDB'>View Repo</Button>
+            <ColoredLine color="#BCB9B9"/>
           <p style={{font: 20, textAlign: 'left', fontWeight: 'bold'}}>Portfolio Web  App</p>
             <p style={{font: 20, textAlign: 'left'}}>Language: React Js </p>
             <p style={{font: 20, textAlign: 'left'}}>This mobile app written in JavaScript and CSS with the aid of the React Framework.</p>

@@ -1,5 +1,5 @@
 {
-  "name": "Portfolio",
+  "name": "portfolio",
   "version": "0.1.1",
   "private": true,
   "homepage": "https://isanchez340.github.io/Portfolio/",
@@ -46,5 +46,20 @@
   },
   "devDependencies": {
     "gh-pages": "^2.2.0"
+  },
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/isanchez340/Portfolio.git"
+  },
+  "keywords": [
+    "portfolio",
+    "work"
+  ],
+  "author": "Irving Sanchez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/isanchez340/Portfolio/issues"
   }
 }
